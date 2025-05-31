@@ -1,6 +1,6 @@
 const AWS = require("aws-sdk");
 const db = new AWS.DynamoDB.DocumentClient();
-const TABLE_NAME = process.env.TABLE_NAME;  
+const TABLE_NAME = process.env.TABLE_NAME;   
 
 exports.handler = async () => {
   try {
